@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "tag": "Selamlama",
+      "patterns": [ "Merhabalar", "Selamlar", "Selam", "Günaydın", "Tünaydın", "İyi Günler", "İyi Tatiller", "İyi Akşamlar", "İyi Bayramlar", "Bayramınız kutlu olsun", "Mutlu yıllar" ],
+      "responses": [ "Merhabalar :)", "Seni gördüğüme sevindim", "Nasıl yardımcı olabilirim" ]
+    },
+    {
+      "tag": "Giris",
+      "patterns": [ "Sen kimsin", "Orada Mısın?", "Kiminle Konuşuyorum? " ],
+      "responses": [ "Ben Erzurum Teknik Üniversitesi dijital asistan. Memnun oldum", "Sizlere Yardımcı olmak için buradayım.", "Nasıl yardımcı olabilirim" ]
+    },
+    {
+      "tag": "Yardimlasma",
+      "patterns": [ "Yardım", "Yardımcı olurmusun ", "Yardım Edermisin" ],
+      "responses": [ "Size Nasıl yardımcı olabilirim. Sorunuzu açıkca yazabilir misiniz." ]
+    },
+    {
+      "tag": "Ulasim",
+      "patterns": [ "Adres", "Tam adresi öğrenebilir miyim ? ", "Adres Öğrenebilir miyim ? ", "Okul Nerede ? ", "Okul yolunu tarif eder misin ? ", "ETÜ Nerede" ],
+      "responses": [ "Erzurum Teknik Üniversitesi Ömer Nasuhi Bilmen Mah. Havaalanı yolu  No:53 YAKUTİYE / ERZURUM" ]
+    },
+    {
+      "tag": "Meil ve Site",
+      "patterns": [ "Meil adresi alabilir miyim?", "Okulun meil adrsinin alabilir miyim ? ", "Meil adresi ver", "Meil" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Geçmis",
+      "patterns": [ "Etü bilgisayar mühendisliği bölümü ne zaman açıldı ?", "Bölüm ne zaman açıldı  ? ", "Bilgisayar Mühendisliği ne zamandan beri var ? ", "Meil" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+
+
+
+
+
+    {
+      "tag": "Dersler",
+      "patterns": [ "Bilgisayar Mühendisliğinde hangi dersler var ?", "Bölümde hangi dersler var ?", "Bölüm dersleri nelerdir ?", "Dersler nelerdir ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Ders Kredisi",
+      "patterns": [ "Ders kredilerini nerden öğrenebilirim ? ", "Hangi ders kaç kredi?", "Ders kredilerimi nasıl öğrenebilirim ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Kredi",
+      "patterns": [ " Kredi ne demek ? ", " Kredi? ", "Ders Kredisi nedir ?", "Ders kredisi ? " ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "AKTS",
+      "patterns": [ "AKTS Ne demek ?", "AKTS nedir ?", "Nedir bu AKTS ?", "AKTS hakkında bilgi alabilir miyim  ? " ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Bölüm Bilgi",
+      "patterns": [ "Bölüm Hakkında bilgi alabilir miyim ? ", "Bölümüm hakkında bilgiyi nerede alabilirim ?  ", "Bölüm hakkında bilgi paylaşır mısın ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Egitim SüresiS",
+      "patterns": [ "Bölüm kaç yıl? ", "Bilgisayar mühendisliği ?  ", "Bölüm hakkında bilgi paylaşır mısın ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+
+
+    {
+      "tag": "Mezuniyet",
+      "patterns": [ "Mezuniyet şartları nelerdir? ", "Nasıl mezun olabilirim ?  ", "Mezun olmam için ne yapmalıyım ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+
+
+
+
+    {
+      "tag": "Staj",
+      "patterns": [ "Staj nedir ? ", "Staj neden yapılır?", "Staj yapmak zorunlu mu ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Staj Belgeleri",
+      "patterns": [ "Staj belgelerini nerden alabilirim ? ", "Staj için belge gerekli mi?", "Staj için gerekli belgeler nelerdir ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Staj Yerleri",
+      "patterns": [ "Staj yapılacak yeri okul belirliyor mu ? ", "Nerelerde staj yapabilirim ?", "Stajımı nerede yapmalıyım ?", "İkinci stajımı nerde yapmalıyım ? " ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Staj Günü",
+      "patterns": [ "Kaç gün staj yapmam gerekir  ? ", "Staj günümü nasıl hesaplayabilirim ?", "Stajımı nerede yapmalıyım ?", "İkinci stajımı nerde yapmalıyım ? " ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+
+
+
+    {
+      "tag": "Yaz Okulu",
+      "patterns": [ "Fakültenizde yaz okulu var mı? ", "Etüde yaz okulu var mı ?", "Okulda yaz okulu var mı ?", "Yazın eğitim var mı  ? " ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Yaz Okulu Tarih",
+      "patterns": [ "Yaz okulu kayıt tarihleri ne zaman  ? ", "Yaz okulu ne zaman başlıyor  ?", "Yaz okulu başlangıç tarihini öğrenebilir miyim?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    }
+
+
+
+
+
+  ]
+}
